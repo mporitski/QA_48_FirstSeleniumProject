@@ -23,7 +23,7 @@ public class FirstSeleniumTest {
 
         //wait for all elements on site to load before starting test
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        
+
         //driver.get("https://www.tel-ran.com/");    //without history
         //driver.navigate().to("https://www.google.com/");  //with history
         driver.navigate().to("https://www.google.com/");
@@ -35,7 +35,7 @@ public class FirstSeleniumTest {
     //test
     @Test
     public void openGoogleTest(){
-        System.out.println("Google opened!");
+        System.out.println("Google opened!!!");
     }
 
     //after     -tearDown
