@@ -19,7 +19,7 @@ public class FirstSeleniumTest {
     //test      -
     @Test
     public void openGoogleTest(){
-        System.out.println("Google opened");
+        System.out.println("Google opened!");
     }
 
     //after     -tearDown
